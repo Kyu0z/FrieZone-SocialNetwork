@@ -1,0 +1,15 @@
+.modal-open {
+  overflow-x: hidden;
+}
+@include media-breakpoint-up(sm) {
+  #post-modal-data {
+    .modal {
+      position: absolute;
+      height: auto;
+      .modal-dialog {
+        max-width: 100%;
+        margin: 0;
+      }
+    }
+  }
+}

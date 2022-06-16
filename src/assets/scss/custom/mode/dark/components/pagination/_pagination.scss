@@ -1,0 +1,12 @@
+.page-link {
+  background-color: $body-bg;
+  border-color: $border-color;
+}
+.page-item {
+  &.disabled {
+    .page-link {
+      background-color: $body-bg;
+      border-color: $border-color;
+    }
+  }
+}

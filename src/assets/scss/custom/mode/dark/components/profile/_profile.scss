@@ -1,0 +1,50 @@
+.profile-feed-items {
+  li {
+    a {
+      &.nav-link {
+        color: $body-color;
+      }
+      &:hover {
+        color: $primary;
+      }
+      &.active {
+        color: $white;
+      }
+    }
+  }
+}
+.friend-list-items {
+  &.nav-pills {
+    .nav-link {
+      &.active {
+        color: $light;
+      }
+    }
+  }
+}
+.feather-icon {
+  a {
+    color: $body-color;
+  }
+}
+.comment-attagement {
+  a {
+    color: $body-color;
+  }
+}
+ul {
+  &.request-list {
+    & > li {
+      border-color: $border-color;
+    }
+  }
+}
+.forum-content {
+  p {
+    span {
+      &.text-dark {
+        color: $light !important;
+      }
+    }
+  }
+}

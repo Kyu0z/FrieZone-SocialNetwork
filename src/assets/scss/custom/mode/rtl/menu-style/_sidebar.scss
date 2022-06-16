@@ -1,0 +1,53 @@
+.iq-sidebar-menu {
+  .ri-arrow-right-s-line:before {
+    content: "\ea64";
+  }
+  .iq-menu {
+    li {
+      a {
+        .iq-arrow-right {
+          margin-left: 0;
+          margin-right: auto;
+        }
+        i {
+          margin-left: 0.938rem;
+          margin-right: unset;
+        }
+      }
+      ul {
+        padding-left: 0rem;
+        padding-right: unset;
+      }
+      a[aria-expanded="true"] {
+        .iq-arrow-right {
+          -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  body.sidebar-main {
+    .iq-sidebar {
+      left: unset;
+      right: 0;
+    }
+  }
+  .iq-sidebar {
+    right: -16.25rem;
+    left: unset;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .navbar-list {
+    li {
+      img {
+        margin-right: unset !important;
+        margin-left: unset !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.iq-sidebar {
+  background: $card-bg;
+
+  .iq-sidebar-menu {
+    .iq-menu {
+      li {
+        a[aria-expanded="true"] {
+          color: $primary;
+        }
+        &.active {
+          .iq-submenu {
+            li {
+              &.active {
+                background-color: transparent;
+                &a {
+                  color: $body-color;
+                }
+              }
+            }
+          }
+          a {
+            color: $body-color;
+          }
+          & > a {
+            color: $primary;
+          }
+        }
+        a {
+          color: $body-color;
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}

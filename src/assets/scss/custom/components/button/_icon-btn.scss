@@ -1,0 +1,52 @@
+.btn {
+  .btn-inner {
+    i:not(.fas):not(.fab) {
+      position: relative;
+      top: 0.125rem;
+    }
+    svg {
+      position: relative;
+      top: -0.125rem;
+      width: 1.5rem;
+    }
+  }
+}
+
+.btn-sm {
+  .btn-inner {
+    svg {
+      width: 1.25rem;
+    }
+  }
+}
+.btn-xs {
+  .btn-inner {
+    svg {
+      width: 1rem;
+    }
+  }
+}
+
+.btn-lg {
+  .btn-inner {
+    svg {
+      width: 2rem;
+    }
+  }
+  &.btn-icon {
+    .btn-inner {
+      svg {
+        top: 0;
+      }
+    }
+  }
+}
+//button//
+.bd-example {
+  > .btn {
+    margin: 0.25rem 0.125rem;
+  }
+  > .btn-group {
+    margin: 0.25rem 0.125rem;
+  }
+}

@@ -1,0 +1,8 @@
+.right-sidebar-panel {
+  background-color: $card-bg;
+}
+@include media-breakpoint-down(lg) {
+  .right-sidebar-mini {
+    top: 72px;
+  }
+}

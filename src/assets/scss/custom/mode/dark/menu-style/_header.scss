@@ -1,0 +1,23 @@
+.iq-top-navbar {
+  background: $card-bg;
+}
+.iq-navbar-logo {
+  a {
+    span {
+      color: $body-color;
+    }
+  }
+}
+.wrapper-menu {
+  color: $body-color;
+}
+.iq-search-bar {
+  .search-input {
+    background: $body-bg;
+    border-color: $border-color;
+    color: $body-color;
+  }
+}
+.navbar-collapse {
+  background-color: $card-bg;
+}
